@@ -38,12 +38,8 @@ class BinarySearchTree:
         return node.value
 
 
-# Спочатку імпортуйте класи TreeNode і BinarySearchTree з коду, який я надав
-
-# Створіть екземпляр BinarySearchTree
 bst = BinarySearchTree()
 
-# Вставте деякі значення
 bst.insert(15)
 bst.insert(10)
 bst.insert(20)
@@ -52,7 +48,6 @@ bst.insert(12)
 bst.insert(17)
 bst.insert(25)
 
-# Знайдіть максимальне значення
 max_value = bst.findMax()
 
 print("Максимальне значення в дереві:", max_value)

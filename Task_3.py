@@ -36,10 +36,8 @@ class BinarySearchTree:
         return node.value + self._sumOfValues(node.left) + self._sumOfValues(node.right)
 
 
-# Створення екземпляра BinarySearchTree
 bst = BinarySearchTree()
 
-# Додавання значень у дерево
 bst.insert(15)
 bst.insert(10)
 bst.insert(20)
@@ -48,7 +46,6 @@ bst.insert(12)
 bst.insert(17)
 bst.insert(25)
 
-# Обчислення суми всіх значень
 total_sum = bst.sumOfValues()
 
 print("Сума всіх значень у дереві:", total_sum)
